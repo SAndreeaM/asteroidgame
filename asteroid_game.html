@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <title>Asteroids</title>
+
+        <link rel = "stylesheet" type = "text/css" href = "asteroid_game.css">
+        
+        <link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet'>
+
+    </head>
+
+    <body>
+        <div id = "scorelivesContainer">
+            <div id = "scoreContainer">
+                <div id = "score">Score: 0</div>
+            </div>
+            <div id = "livesContainer">
+                <div id = "lives">Lives: 3</div>
+            </div>
+        </div>
+        <canvas id = "asteroidsCanvas" width = "960" height = "540"></canvas>
+        <div id = "highestScoresContainer">
+            <h3>High Scores</h3>
+            <ol id = "highestScores"></ol>
+        </div>
+        <div id = "instructionsContainer">
+            <h2>Instructions</h2>
+            <h3>Use THE ARROW KEYS to MOVE.</h3>
+            <h3>Use X to SHOOT.</h3>
+            <h3>Use Z and C to ROTATE.</h3>
+        </div>
+    </body>
+
+    <script src = "asteroid_game.js"></script>
+</html>
